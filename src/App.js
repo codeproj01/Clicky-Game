@@ -17,7 +17,7 @@ function App() {
     };
   }, [counter]);
   
-  const gameArr = arr => {
+  const appArr = arr => {
     return arr.map(element => {
       element.clicked = false;
       return element;
@@ -47,7 +47,7 @@ function App() {
           if (counter >= highscore) {
             sethighscore(highscore + 1);
           }
-          appMsg({ message: "You guessed correctly..!" });
+          appMsg({ message: "You selected correctly..!" });
           setphotoItem(mixUp(photoItem));
           break;
         } else {
@@ -55,8 +55,8 @@ function App() {
             sethighscore(counter);
           }
           appCounter(0);
-          setphotoItem(gameArr(photoItem));
-          appMsg({ message: "You guessed incorrectly..!" });
+          setphotoItem(appArr(photoItem));
+          appMsg({ message: "You selected incorrectly..!" });
         }
       }
     }

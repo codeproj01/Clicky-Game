@@ -7,7 +7,8 @@ If you repeat guesses, you lose and the score is reset to 0, but it keeps track 
 _____________________________________________________________________
 
 ## Technologies used
-React
-JavaScript
-JSX
-Node js
+* React
+* JavaScript
+* JSX
+* ECMAscript 6
+* Node js

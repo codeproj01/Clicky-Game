@@ -9,7 +9,7 @@ import Header from "./components/Header.js";
 function App() {
   const [photoItem, setphotoItem] = useState(images);
   const [counter, appCounter] = useState(0);
-  const [msg, appMsg] = useState({ message: "Displays your guesses here!" });
+  const [msg, appMsg] = useState({ message: "Displays your Correct or Incorrect picks here!" });
   const [highscore, sethighscore] = useState(0);
 
   useEffect(() => {

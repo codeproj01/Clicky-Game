@@ -3,13 +3,22 @@
   display: flex;
   justify-content: space-evenly;
   background-color: burlywood;
-  height: 5vh; 
+  height: 8vh; 
   color: black;
-  position: fixed;
-  width: 100%;
+  position: relative;
+  width: 90%;
   text-align: justify;
+  font-size: 130%;
+  margin-left: auto;
+    margin-right: auto;
 }
 
+body {
+  margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke
+   
+}
 .Title {
   display: flex;
   flex-direction: column;
@@ -59,4 +68,8 @@
   color: black;
   justify-content: center;
   align-items: center;
+  width: 90%;
+  font-size: 130%;
+  margin-left: auto;
+  margin-right: auto;
 }
